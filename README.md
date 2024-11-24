@@ -1,5 +1,5 @@
-# GraphHAM
-This repository contains the source code and dataset for our paper **"LHG: LLM-enhanced and Heterogeneous Graph-induced for Unsupervised Social Event Detection"**.
+# LHG
+This repository contains our paper's source code and dataset **"LHG: LLM-enhanced and Heterogeneous Graph-induced for Unsupervised Social Event Detection"**.
 
 # Requirements
 * Python>=3.7
@@ -8,7 +8,7 @@ This repository contains the source code and dataset for our paper **"LHG: LLM-e
 * networkx>=2.4
 * scikit-learn>=0.20.3
 
-# To run GraphHAM
+# To run LHG for demonstration
 ```python run.py```
 
 # Datasets
