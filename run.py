@@ -157,7 +157,7 @@ if __name__ == '__main__':
 
 
     for block in blocks:
-        only_pseudo = True # directly clustering pseudo lables
+        only_pseudo = False # directly clustering pseudo lables
         teacher_model = run(args, block, only_pseudo)
 
     print(f'Avg ARI: {args.total_ari/(len(blocks) - 1)}, Avg AMI: {args.total_ami/(len(blocks) - 1)}')
