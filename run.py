@@ -82,6 +82,8 @@ def run(args, block, only_pseudo):
     best_model = None
 
     total_loss = []
+    if only_pseudo:
+        args.epochs = 1
 
     for epoch in range(args.epochs):
         t = time.time()
@@ -155,7 +157,7 @@ if __name__ == '__main__':
 
 
     for block in blocks:
-        only_pseudo = False
+        only_pseudo = True # directly clustering pseudo lables
         teacher_model = run(args, block, only_pseudo)
 
     print(f'Avg ARI: {args.total_ari/(len(blocks) - 1)}, Avg AMI: {args.total_ami/(len(blocks) - 1)}')
