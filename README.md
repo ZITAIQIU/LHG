@@ -12,7 +12,7 @@ This repository contains our paper's source code and dataset **"LHG: LLM-enhance
 ```python run.py```
 
 # Datasets
-The processed data set can be found [here]([https://github.com/alaa-a-a/kawarith](https://drive.google.com/drive/folders/1OGt2Dj-61z8SFoV2kksz5fogrrS8XJN_?usp=sharing)) please downloaded and unpacked it into the /data file.
+The processed data set can be found [here](https://drive.google.com/drive/folders/1OGt2Dj-61z8SFoV2kksz5fogrrS8XJN_?usp=sharing). Please download and unpack it into the /data file.
 
 
 # Ablation Studies
